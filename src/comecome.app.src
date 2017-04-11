@@ -1,11 +1,13 @@
 {application, comecome,
- [{description, "An OTP application"},
+ [{description, "Pacman Game Server"},
   {vsn, "0.1.0"},
   {registered, []},
   {mod, { comecome_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    lager,
+    sasl
    ]},
   {env,[]},
   {modules, []},
