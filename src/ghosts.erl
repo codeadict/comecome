@@ -11,3 +11,16 @@
 
 %% API
 -export([]).
+
+
+pinky_target(_) ->
+  ok.
+
+blinky_target(_) ->
+  ok.
+
+inky_target(_) ->
+  ok.
+
+clyde_target(_) ->
+  ok.
