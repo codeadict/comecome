@@ -15,3 +15,11 @@
   points = 0,
   ghosts = []
 }).
+
+update_pos({X, Y}, Dir) ->
+  case Dir of
+    left  -> {X, Y-1};
+    up    -> {X-1, Y};
+    right -> {X, Y+1};
+    down  -> {X+1, Y}
+  end.
